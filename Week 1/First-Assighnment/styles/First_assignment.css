@@ -1,0 +1,54 @@
+
+:root{
+    --dark:#2b3035;
+    --white:#fff;
+}
+
+.body
+{
+    background-color: var(--dark);
+}
+.footer{
+    background-color: #272727;
+}
+.imge-section img{
+    width: auto;
+    height: 500px;
+    background-color: transparent;
+    margin-left: 10px;
+}
+.container,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+ul,
+li,
+a, 
+button
+{
+    color: var(--white);
+    background-color: transparent;
+}
+
+i{
+    background-color: transparent;
+}
+.img-icon{
+    width: 30px;
+    height: 30px;
+}
+@media (max-width:500px) {
+    .about-me{
+        flex-direction: column;
+    }
+    .imge-section{
+        margin-top: 20px;
+    }
+    .porject{
+        flex-direction: column;
+    }
+}
+
