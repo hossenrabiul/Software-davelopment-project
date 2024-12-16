@@ -1,0 +1,110 @@
+
+.main{
+    align-items: center;
+}
+li{
+    list-style: none;
+}
+.img{
+    background-image: url('../images/1.png');
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.hr{
+    border-top: 2px dashed gray;
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    background: blanchedalmond;
+    margin-bottom: 20px;
+    margin-left: 70px;
+}
+.circle::before {
+    content: attr(value) "%";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+.program1{
+    background-image: url('../images/2.png');
+    background-repeat: no-repeat;
+    /* width: 700px; */
+}
+.program2{
+    background-image: url('../images/3.png');
+    background-repeat: no-repeat;
+    /* width: 700px; */
+    /* background-color: blue; */
+}
+.golf-player{
+    background-image: url('../images/4.png');
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.player-des{
+    padding: 30px;
+}
+.player-cloth{
+    align-items: center;
+    
+}
+.clent-discution{
+    align-items: center;
+}
+.call{
+    background-color:#d9e1cc;
+}
+.sms{
+    background-color:#ece1cc;
+}
+.location{
+    background-color: #ced7e4;
+}
+.contact-section{
+    align-items: center;
+}
+.phone-call{
+    width: 450px;
+}
+.send-message{
+    width: 540px;
+}
+.foter{
+    align-items: center;
+}
+.first-col{
+    padding-top: 70px;
+    padding-left: 120px;
+    padding-right: 100px;
+    padding-bottom: 110px;
+}
+.second-col{
+    padding-top: 70px;
+    padding-left: px;
+    padding-bottom: 110px;
+}
+.third-col{
+    padding-top: 70px;
+    padding-left: 100px;
+    padding-bottom: 110px;
+}
+.fourth-col{
+    padding-top: 70px;
+    padding-left: 100px;
+    padding-bottom: 110px;
+}
+@media (max-width:500) {
+    .player-cloth{
+        flex-direction: column;
+    }
+    .player-container{
+        flex-direction: column;
+    }
+}
